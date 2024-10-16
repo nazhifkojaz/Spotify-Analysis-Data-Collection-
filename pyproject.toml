@@ -95,6 +95,7 @@ langdetect = "^1.0.9"
 transformers = "^4.45.2"
 torch = "^2.4.1"
 scikit-learn = "^1.5.2"
+squarify = "^0.4.4"
 
 
 [tool.poetry.group.dev.dependencies]

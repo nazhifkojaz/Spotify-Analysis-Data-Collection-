@@ -3060,6 +3060,17 @@ memcache = ["pymemcache (>=3.5.2)"]
 test = ["mock (==2.0.0)"]
 
 [[package]]
+name = "squarify"
+version = "0.4.4"
+description = "Pure Python implementation of the squarify treemap layout algorithm"
+optional = false
+python-versions = "*"
+files = [
+    {file = "squarify-0.4.4-py3-none-any.whl", hash = "sha256:d7597724e29d48aa14fd2f551060d6b09e1f0a67e4cd3ea329fe03b4c9a56f11"},
+    {file = "squarify-0.4.4.tar.gz", hash = "sha256:b8a110c8dc5f1cd1402ca12d79764a081e90bfc445346cfa166df929753ecb46"},
+]
+
+[[package]]
 name = "stack-data"
 version = "0.6.3"
 description = "Extract data from python stack frames and tracebacks for informative displays"
@@ -3624,4 +3635,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "5a64dd7c1c40b277f9111f3940d3edfbfd7082265c4ab7c8527a9d4654db10dc"
+content-hash = "c5084f3d2b14d77081a8b53c4903ad7abc70c7d537651697fccc65ae4db4af24"
